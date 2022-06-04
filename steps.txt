@@ -1,0 +1,8 @@
+create account in tmdb to access their api - checked
+create react app - checked
+setup fire base -
+hosting
+
+api key => 916179dea0dda6bcdc9eff6f79aee7f1
+api request => https://api.themoviedb.org/3/movie/550?api_key=916179dea0dda6bcdc9eff6f79aee7f1
+api access token => eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5MTYxNzlkZWEwZGRhNmJjZGM5ZWZmNmY3OWFlZTdmMSIsInN1YiI6IjYyOWI4NmQ4OGQyMmZjMDA2OGZlNmY1ZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ZQwJ0DfwvIp4vgS9oI5twsXgXnhwoxPlC7m2ifr5x60
