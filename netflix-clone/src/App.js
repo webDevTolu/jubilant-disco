@@ -4,11 +4,12 @@ import requests from "./requests";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       <h1>Netflix Clone</h1>
       <Row
         title="Netflix originals"
         fetchUrl={requests.fetchNetflixOriginals}
+        isLargeRow
       />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
