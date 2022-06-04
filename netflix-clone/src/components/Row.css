@@ -6,8 +6,13 @@
   width: 100%;
   object-fit: contain;
   max-height: 100px;
+  transition: transform 450ms;
   /* height: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; */
+}
+
+.row__poster:not(:last-child) {
+  margin-right: 10px;
 }
