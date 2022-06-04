@@ -2,6 +2,11 @@ create account in tmdb to access their api - checked
 create react app - checked
 setup fire base - checked
 hosting
+  - get all the movies
+  - build the rows
+  - build the banner
+  - build the Nav banner
+  - add trailer popups
 
 api key => 916179dea0dda6bcdc9eff6f79aee7f1
 api request => https://api.themoviedb.org/3/movie/550?api_key=916179dea0dda6bcdc9eff6f79aee7f1
