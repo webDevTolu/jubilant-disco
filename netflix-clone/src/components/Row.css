@@ -1,5 +1,12 @@
 .row__posters {
   display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.row__posters::-webkit-scrollbar {
+  display: none;
 }
 
 .row__poster {
@@ -7,12 +14,14 @@
   object-fit: contain;
   max-height: 100px;
   transition: transform 450ms;
-  /* height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
 }
 
 .row__poster:not(:last-child) {
   margin-right: 10px;
+}
+
+.row__poster:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  /* opacity: 1; */
 }
