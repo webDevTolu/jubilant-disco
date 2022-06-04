@@ -1,6 +1,6 @@
 create account in tmdb to access their api - checked
 create react app - checked
-setup fire base -
+setup fire base - checked
 hosting
 
 api key => 916179dea0dda6bcdc9eff6f79aee7f1
