@@ -6,7 +6,7 @@ hosting
   - build the rows - checked
   - build the banner - checked
   - build the Nav banner - checked
-  - add trailer popups
+  - add trailer popups - checked
 
 api key => 916179dea0dda6bcdc9eff6f79aee7f1
 api request => https://api.themoviedb.org/3/movie/550?api_key=916179dea0dda6bcdc9eff6f79aee7f1
