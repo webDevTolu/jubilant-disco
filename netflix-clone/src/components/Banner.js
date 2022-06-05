@@ -24,12 +24,17 @@ const Banner = () => {
     fetchData();
   }, []);
 
+  // truncate text
+  const truncate = (str, n) => {
+    return str?.length > n ? str.substr(0, n - 1) + "..." : str;
+  };
+
   return (
     <header
       className="banner"
       style={{
         backgroundImage: `url(${imageUrl}${movies?.backdrop_path})`,
-        backgroundPosition: "center center",
+        backgroundPosition: "center",
       }}
     >
       <div className="banner__contents">
@@ -42,7 +47,7 @@ const Banner = () => {
           <button className="banner__button">My List</button>
         </div>
 
-        <h3 className="banner__description">{movies?.overview}</h3>
+        <h3 className="banner__description">{truncate(movies?.overview, 150)}</h3>
       </div>
     </header>
   );
