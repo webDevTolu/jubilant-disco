@@ -4,7 +4,7 @@ setup fire base - checked
 hosting
   - get all the movies -checked
   - build the rows - checked
-  - build the banner
+  - build the banner - checked
   - build the Nav banner
   - add trailer popups
 

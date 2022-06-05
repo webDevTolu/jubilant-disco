@@ -2,12 +2,13 @@
   color: white;
   object-fit: contain;
   height: 448px;
+  position: relative;
 }
 
 .banner__contents {
   margin-left: 30px;
   padding-top: 140px;
-  height: 190px;
+  height: 190px; 
 }
 
 .banner__title {
@@ -44,4 +45,18 @@
 .banner__button:hover {
   color: #000000;
   background-color: #e6e6e6;
+}
+
+.banner--fadeBottom {
+  height: 7.4rem;
+  width: 100%;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
