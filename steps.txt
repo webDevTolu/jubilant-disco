@@ -5,7 +5,7 @@ hosting
   - get all the movies -checked
   - build the rows - checked
   - build the banner - checked
-  - build the Nav banner
+  - build the Nav banner - checked
   - add trailer popups
 
 api key => 916179dea0dda6bcdc9eff6f79aee7f1

@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./components/Banner";
+import Nav from "./components/Nav";
 import Row from "./components/Row";
 import requests from "./requests";
 
@@ -7,7 +8,7 @@ const App = () => {
   return (
     <div className="app">
       {/* nAVBAR */}
-      {/* banner */}
+      <Nav />
       <Banner />
       <Row
         title="Netflix originals"
