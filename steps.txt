@@ -2,8 +2,8 @@ create account in tmdb to access their api - checked
 create react app - checked
 setup fire base - checked
 hosting
-  - get all the movies
-  - build the rows
+  - get all the movies -checked
+  - build the rows - checked
   - build the banner
   - build the Nav banner
   - add trailer popups
